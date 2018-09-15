@@ -463,7 +463,7 @@ textarea.form-control, textarea.form-control:focus {
 .subpages {
   position: relative;
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   -webkit-perspective: 1500px;
   -moz-perspective: 1500px;
   perspective: 1500px;
@@ -819,7 +819,7 @@ ul.social-links li:last-child a {
 .home-page-block .info-list li span.title,
 .home-page-block .info-list li a {
   color: #eee;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /* =======================================
@@ -1020,8 +1020,8 @@ ul.social-links li:last-child a {
 .event-date {
   display: inline-block;
   position: relative;
-  color: #fff;
-  font-weight: 300;
+  color: #000;
+  font-weight: 400;
   line-height: 1.1em;
   margin: 0 0 3px;
   background-color: #9bd952;
