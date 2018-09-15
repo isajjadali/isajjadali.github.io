@@ -109,10 +109,10 @@
 
         <!-- Social buttons -->
         <ul class="social-links">
-          <li><a class="tip social-button" href="https://www.linkedin.com/in/iamsajjadali/" title="Twitter"><i class="fa fa-linkedin"></i></a></li>
+          <li><a class="tip social-button" target="_blank" href="https://www.linkedin.com/in/iamsajjadali/" title="Twitter"><i class="fa fa-linkedin"></i></a></li>
           <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
-          <li><a class="tip social-button" href="https://www.facebook.com/profile.php?id=100006191829953&ref=br_rs" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="tip social-button" href="https://github.com/isajjadali" title="Google Plus"><i class="fa fa-github"></i></a></li>
+          <li><a class="tip social-button" target="_blank" href="https://www.facebook.com/isajjadali5112" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="tip social-button" target="_blank" href="https://github.com/isajjadali" title="Google Plus"><i class="fa fa-github"></i></a></li>
           <!--<li><a class="tip social-button" href="#" title="Youtube"><i class="fa fa-youtube"></i></a></li>-->
           <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
           <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
@@ -143,7 +143,7 @@
         <div class="subpages">
 
           <!-- Home Subpage -->
-          <section class="pt-page pt-page-1 section-with-bg section-paddings-0" style="background-image: url(images/home_page_bg_2.jpg);" data-id="home">
+          <section class="pt-page pt-page-1 section-with-bg section-paddings-0 image-settings" style="background-image: url(images/home_page_bg_2.jpg);" data-id="home">
             <div class="home-page-block-bg">
               <div class="mask"></div>
             </div>
@@ -365,7 +365,7 @@
                 <li class="active">
                   <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
                 </li>
-                <li>
+                <!-- <li>
                   <a class="filter btn btn-sm btn-link" data-group="restaurant">Restaurant</a>
                 </li>
                 <li>
@@ -376,7 +376,7 @@
                 </li>
                 <li>
                     <a class="filter btn btn-sm btn-link" data-group="advertisement">Advertisement</a>
-                  </li>
+                  </li> -->
               </ul>
               <!-- End of Portfolio filter -->
 
@@ -385,12 +385,12 @@
 
                 <!-- Portfolio Item 1 -->
                 <figure class="item" data-groups='["all", "restaurant"]'>
-                  <a class="ajax-page-load" href="portfolio-1.html">
+                  <a data-toggle="modal" data-target="#kuks">
                     <img src="images/kuks.png" alt="">
                     <div>
                       <h5 class="name">Kuks</h5>
                       <small>Restaurant</small>
-                      <i class="fa fa-file-text-o"></i>
+                      <i class="fa fa-image"></i>
                     </div>
                   </a>
                 </figure>
@@ -398,12 +398,12 @@
 
                 <!-- Portfolio Item 2 -->
                 <figure class="item" data-groups='["all", "restaurant"]'>
-                  <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                  <a data-toggle="modal" data-target="#mrscan">
                     <img src="images/mrscan.png" alt="">
                     <div>
                       <h5 class="name">Mr Scan</h5>
                       <small>Restaurant</small>
-                      <i class="fa fa-video-camera"></i>
+                      <i class="fa fa-image"></i>
                     </div>
                   </a>
                 </figure>
@@ -411,7 +411,7 @@
 
                 <!-- Portfolio Item 3 -->
                 <figure class="item" data-groups='["all","beautician"]'>
-                  <a href="images/portfolio/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                  <a data-toggle="modal"  data-target="#gharpar">
                     <img src="images/gharpar.png" alt="">
                     <div>
                       <h5 class="name">Ghar Par</h5>
@@ -424,12 +424,12 @@
 
                 <!-- Portfolio Item 4 -->
                 <figure class="item" data-groups='["all", "advertisement"]'>
-                  <a class="ajax-page-load" href="portfolio-1.html">
+                  <a  data-toggle="modal" data-target="#adqore">
                     <img src="images/adqore.png" alt="">
                     <div>
                       <h5 class="name">Adqore</h5>
                       <small>Advertisement</small>
-                      <i class="fa fa-file-text-o"></i>
+                    <i class="fa fa-image"></i>
                     </div>
                   </a>
                 </figure>
@@ -437,8 +437,8 @@
 
                 <!-- Portfolio Item 5 -->
                 <figure class="item" data-groups='["all", "chating"]'>
-                  <a href="images/portfolio/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
-                    <img src="images/chatbot.png" alt="">
+                  <a data-toggle="modal" data-target="#chatbot">
+                    <img src="images/chatbot.png" alt="" >
                     <div>
                       <h5 class="name">ChatBot</h5>
                       <small>Chating Platform</small>
@@ -450,23 +450,23 @@
 
                 <!-- Portfolio Item 6 -->
                 <figure class="item" data-groups='["all", "restaurant"]'>
-                  <a class="ajax-page-load" href="portfolio-1.html">
+                  <a  data-toggle="modal" data-target="#vots">
                     <img src="images/vots.jpg" alt="">
                     <div>
                       <h5 class="name">Virtual Order Taking System For Restaurant (FYP)</h5>
                       <small>Restaurant</small>
-                      <i class="fa fa-file-text-o"></i>
+                    <i class="fa fa-image"></i>
                     </div>
                   </a>
                 </figure>
 
                 <figure class="item" data-groups='["all", "advertisement"]'>
-                    <a class="ajax-page-load" href="portfolio-1.html">
+                    <a  data-toggle="modal" data-target="#packages">
                       <img src="images/packages.png" alt="">
                       <div>
                         <h5 class="name">Packages</h5>
                         <small>Mall</small>
-                        <i class="fa fa-file-text-o"></i>
+                        <i class="fa fa-image"></i>
                       </div>
                     </a>
                   </figure>
@@ -502,28 +502,28 @@
 
                   <h4>AngularJS</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-6"></div>
+                    <div class="skill-percentage skill-5"></div>
                   </div>
                   <h4>ReactJS</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-8"></div>
+                    <div class="skill-percentage skill-5"></div>
                   </div>
 
                   <h4>HTML5/CSS3</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-7"></div>
+                    <div class="skill-percentage skill-5"></div>
                   </div>
                   <h4>MySQL / Sequelize</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-5"></div>
+                    <div class="skill-percentage skill-4"></div>
                   </div>
                   <h4>MongoDB / Mongoose</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-8"></div>
+                    <div class="skill-percentage skill-6"></div>
                   </div>
                   <h4>GIT / bitbuket</h4>
                   <div class="skill-container">
-                    <div class="skill-percentage skill-7"></div>
+                    <div class="skill-percentage skill-6"></div>
                   </div>
               </div>
             </div>
@@ -624,6 +624,399 @@
       <!-- /Main Content -->
     </div>
 
+    <div id="kuks" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2> Kuks - Restaurant Discounts & Reservation | OneByte LLC</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Apr 2017 – Present</h4>
+              
+              <p>Project description:</p>
+              <p>Building a reservation and food delivery platform for restaurants and foodies.</p>
+              
+              <p>With Kuks App, users can discover new restaurants, reserve tables, order dine-in, takeaway & home delivery instantly – anytime, anywhere.</p>
+
+              <h4>Responsibilities:</h4>
+              <p>I worked on this product as a Full Stack Developer | MERN. </p>
+              <p>My key responsibilities include:</p>
+              
+              <ul>
+              <li> Develop new user-facing features in ReactJS.</li>
+              <li> Develop (REST API's ) web application server-side logic in NodeJS/KrakenJS/Express/MySql.</li>
+              <li> Develop lightweight, cross-browser, single page app that talks to REST API.</li>
+              <li> Translation of the UI/UX design wire frames to actual code that will produce visual elements of the application.</li>
+            </ul>
+
+              <h4>FEATURES</h4> 
+              <p>With Kuks App | Android | iOS, users can:</p>
+              <ul>
+              <li>Instantly discover nearby restaurants</li>
+              <li> Reserve tables on the go</li>
+              <li> Order dine-in & takeaway food</li>
+              <li> View restaurant menus</li>
+              <li> Find delicious deals</li>
+              <li> Write and read reviews</li>
+              <li> Earn redeem points, discounts & exclusive foodie vouchers.</li>
+              </ul>
+
+              <p>With Kuks CMS | Dashboard, Restaurant Admin can:</p>
+              <ul>
+              <li>Add/Edit/Remove Restaurants Details.</li>
+              <li> Add/Edit/Remove Menu & Deals Items.</li>
+              <li> View Orders.</li>
+              <li> Assign Staff & Admins.</li>
+              <li> Manage Timings.</li>
+              </ul>
+             <p> With Kuks CMS | Dashboard, Super Admin can:</p>
+              <ul>
+                <li>Add/Edit/Remove All Restaurants Details.</li>
+                <li>Add/Edit/Remove Menu & Deals Items for All Restaurants.</li>
+                <li>View Orders for All Restaurants.</li>
+                <li>Assign Staff & Admins for All Restaurants.</li>
+                <li>Manage Timings for All Restaurants.</li>
+                <li>Manage Kuks App users & Send them announcements notifications. </li>
+              </ul>
+              <h4>Technologies:</h4>
+              <ul>
+               <li>JavaScript. </li>
+               <li>ReactJs | Redux.</li>
+               <li>NodeJs/ExpressJS/krakenJS/NginX.</li>
+               <li>MySql/Sequelize ORM.</li>
+               <li>Git (Bitbucket), Webpack,Firebase.</li>
+               <li>Bootstrap/HTML5/CSS3 (Sass).</li>
+               <li>Android | iOS</li>
+
+              </ul> 
+            </div>
+      
+        </div>
+    
+      </div>
+    </div>
+    
+    <div id="mrscan" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2> Mr.Scan - Restaurant & Reservation | OneByte LLC</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Dec 2017 – Present</h4>
+              
+              <h4>Project Description:</h4>
+              <p>Building a highly dynamic reservation and food delivery platform for restaurants and foodies.</p>
+              
+              <p>With Mr.Scan App, users can discover new restaurants, reserve tables, order (Dine-in),(Dine-in-Pre-Order),(TakeAway) & (Home-delivery) instantly – anytime, anywhere.</p>
+              
+              <h4>Responsibilities:</h4>
+              <p>I worked on this product as a Full Stack Developer | MERN. My key responsibilities include:</p>
+              <ul>
+                <li> Develop new user-facing features in Angular5.</li>
+                <li> Develop (REST API's ) web application server-side logic in NodeJS/KrakenJS/Express/MySql.</li>
+                <li> Develop lightweight, cross-browser, single page app that talks to REST API.</li>
+                <li> Translation of the UI/UX design wire frames to actual code that will produce visual elements </li>
+                <li>of the application.</li>
+              </ul>
+              
+              <h4>FEATURES </h4>
+              <p>With Mr.Scan App | Android | iOS, users can:</p>
+              <ul>
+              <li> Instantly discover nearby restaurants</li>
+              <li> Reserve tables on the go</li>
+              <li> Order (Dine-in),(Dine-in-re-Order),(Home-Delivery) & (Takeaway) food</li>
+              <li> View restaurant menus</li>
+              <li> Find delicious deals</li>
+              <li> Write and read reviews,also with ratings</li>
+            </ul>
+
+              <p>With Mr.Scan CMS | Dashboard, Restaurant Admin can:</p>
+              <ul>
+              <li>Add/Edit/Remove Restaurants Details.</li>
+              <li>Add/Edit/Remove Menu Items so dynamically that can change the behaviour of App.</li>
+              <li>View and manipulate Orders.</li>
+              <li>Manage opening and closing Timings.</li>
+              <li>Manage (breakfast,lunch,dinner) time zone so that app can show only those dishes in which </li>
+              <li>lies in that specific time zone.</li>
+            </ul>
+
+            <p>  With Mr.Scan CMS | Dashboard, Super Admin can:</p>
+            <ul>  
+            <li> Add/Edit/Block Any Restaurants.</li>
+              <li> Show Profits of every single Restaurant.</li>
+              <li> View Profit of per item of any Restaurant.</li>
+            </ul>
+            
+            <h4>  Technologies:</h4>
+            <ul>
+              <li>JavaScript. </li>
+              <li>Angular 5/Angular-Material-Design.</li>
+              <li>NodeJs/ExpressJS/krakenJS.</li>
+              <li>MySql/Sequelize ORM.</li>
+              <li>Git (Bitbucket), Webpack,Firebase.</li>
+              <li>Bootstrap/HTML5/CSS3 (Sass).</li>
+              <li>React Native</li>
+            </ul>
+            </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+    <div id="gharpar" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2>GharPar</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Apr 2018 – Jul 2018</h4>
+              
+              <h4>Project description:</h4>
+              <p>Building a System to manage Jobs of Beauticians and Clients and allow them to communicate using this platform</p>
+              
+              <h4>Responsibilities:</h4>
+              <p>I worked on this product as a Full Stack Developer | MERN.</p>
+              
+              <p>With this system users can:</p>
+              <ul>
+              <li> See all Services provided by Gharpar Team.</li>
+              <li> Placed Order through Mobile App, Web App or manually by calling to CSR Team.</li>
+              <li> Can give reviews and rating to the beauticians on their jobs.</li>
+            </ul>
+
+            <p>  With CMS | Dashboard, Restaurant Admin can:</p>
+            <ul>
+              <li> Add/Edit Services,Categories and Subcategories.</li>
+              <li> Add/Edit Clients and Beauticians.</li>
+              <li> View Orders.</li>
+              <li> View Reviews Against Beauticians Jobs.</li>
+              <li> VIew Scheduler of Beauticians.</li>
+              <li> Placed Order Manually against a Client.</li>
+              <li> Reassign Beauticians Manually.</li>
+            </ul>
+              
+              <h4>Technologies:</h4>
+              <ul>
+              <li> JavaScript. </li>
+              <li> Angular 5.</li>
+              <li> NodeJs/ExpressJS/krakenJS.</li>
+              <li> MySql/Sequelize ORM.</li>
+              <li> Bootstrap/HTML5/CSS3 (Sass).</li>
+            </ul>
+            </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+    <div id="adqore" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2 class="modal-title">Adqore</h2>
+          </div>
+          <div class="modal-body">
+            <h4>June 2018 – Present</h4>
+            
+            <h4>Project description:</h4>
+            <p>Building a Platform to take control of whole the application of Advertising Campaigns.</p>
+            
+            <h4>Responsibilities:</h4>
+            <p>I worked on this product as a Full Stack Developer | MERN. My key responsibilities include:</p>
+           <ul> 
+            <li>Develop new user-facing features in Angular5.</li>
+            <li>Develop (REST API's ) web application server-side logic in NodeJS/KrakenJS/Express/MySql.</li>
+            <li>Develop lightweight, cross-browser, single page app that talks to REST API.</li>
+            <li>Translation of the UI/UX design wire frames to actual code that will produce visual elements of the application.</li>  
+          </ul>
+
+           <h4> FEATURES </h4>
+            <p>With Adqore Advertiser user can:</p>
+            <ul>
+            <li>Add Campaigns.</li>
+            <li>Manage thier profile.</li>
+            <li>Can handle payments.</li>
+          </ul>
+
+          <p> With Adqore User board user can::</p>
+          <ul>  
+          <li>See Campaigns</li>
+            <li>Manage thier profile.</li>
+            <li>Add his Interest to see campaings of his interests.</li>
+          </ul>
+
+           <h4> Technologies:</h4>
+           <ul>
+            <li>JavaScript. </li>
+            <li>Angular 5.</li>
+            <li>NodeJs/ExpressJS/krakenJS.</li>
+            <li>MongoDb/Mongoose ORM.</li>
+            <li>Git (Bitbucket), Webpack,Firebase.</li>
+            <li>Bootstrap/HTML5/CSS3 (Sass).</li>
+          </ul>
+        </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+
+    <div id="chatbot" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2> Chat-Bot</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Feb 2017 – Present</h4>
+              
+              <h4>Project description</h4>
+              <p>We can do conversation with machine using two data-sets.</p>
+          </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+
+    <div id="vots" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2>Virtual Order Taking System For Restaurant (Final Year Project)</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Aug 2017 – Jan 2018</h4>
+              
+              <h4>Project description:</h4>
+             <p> Building a Virtual Restaurants System to enhance the interaction between chief and foodies through touch devices.</p>
+              
+              <h4>Responsibilities:</h4>
+              <p>I worked on this product as a Full Stack Developer | MERN. </p>
+              
+              <p>My key responsibilities include:</p>
+              <ul></ul>
+              <li>Develop Restaurant Kitchen View and Backed in Node.js.</li>
+              <li>Write Algorithms of Recommendation System of Different types.</li>
+              <li>Write Algorithms of Sentiment Analysis. </li>
+            </ul>
+              <h4>FEATURES </h4>
+              <p>With this system users can:</p>
+             <ul>
+              <li>See all menu options of a restaurant</li>
+              <li>Placed Order through a specific device.</li>
+              <li>Can see the recommendations of top rated dishes of a restaurant.</li>
+              <li>Also view the recommendation of dishes which are highly order with the one he/she selected.</li>
+              <li>Write and read reviews</li>
+            </ul>
+
+              <p>With CMS | Dashboard, Restaurant Admin can:</p>
+            <ul>
+              <li>Add/Edit/Remove Restaurants Details.</li>
+              <li>Add/Edit/Remove Menu & Deals Items.</li>
+              <li>View Orders.</li>
+              <li>View Reviews against any dish weather they are positives are negatives from user point of view.</li>
+            <ul>
+              
+            <h4>  Technologies:</h4>
+            <ul>
+              <li>JavaScript/PHP. </li>
+              <li>Angular 4/codeigniter.</li>
+              <li>NodeJs/ExpressJS/krakenJS.</li>
+              <li>MySql/Sequelize ORM.</li>
+              <li>Bootstrap/HTML5/CSS3 (Sass).</li>
+            </ul>
+            </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+
+    <div id="packages" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2>CMS Packages Mall OneByte (LLC)</h2>
+          </div>
+          <div class="modal-body">
+              <h4>Aug 2017 – Sep 2017</h4>
+              
+              <h4>Project description:</h4>
+              <p>Building a Platform to take control of whole the application of Packages Mall.</p>
+              
+              <h4>Responsibilities:</h4>
+              <p>I worked on this product as a Full Stack Developer | MERN. My key responsibilities include:</p>
+             <ul> 
+              <li>Develop new user-facing features in Angular4.</li>
+              <li>Develop (REST API's ) web application server-side logic in NodeJS/KrakenJS/Express/MySql.</li>
+              <li>Develop lightweight, cross-browser, single page app that talks to REST API.</li>
+              <li>Translation of the UI/UX design wire frames to actual code that will produce visual elements of the application.</li>  
+            </ul>
+
+             <h4> FEATURES </h4>
+              <p>With Packages Mall App | Android | iOS, users can:</p>
+              <ul>
+              <li>Instantly discover address of shop in Mall.</li>
+              <li>See latest offers and events.</li>
+              <li>See the whole map of Mall.</li>
+            </ul>
+
+            <p>  With Packages Mall CMS | Dashboard, Restaurant Admin can:</p>
+            <ul>  
+            <li>Add/Edit/Remove Events Details.</li>
+              <li>Add/Edit/Remove Offers.</li>
+              <li>Add/Edit/Remove Maps of Mall.</li>
+              <li>Manage Static Pages of App.</li>
+            </ul>
+
+             <h4> Technologies:</h4>
+             <ul>
+              <li>JavaScript. </li>
+              <li>Angular 4.</li>
+              <li>NodeJs/ExpressJS/krakenJS.</li>
+              <li>MongoDb/Mongoose ORM.</li>
+              <li>Git (Bitbucket), Webpack,Firebase.</li>
+              <li>Bootstrap/HTML5/CSS3 (Sass).</li>
+              <li>Android/IOS</li>
+            </ul>
+          </div>
+      
+        </div>
+    
+      </div>
+    </div>
+
+
+    
     <!-- Demo Color changer
     <a id="lm_demo_panel_switcher" class="lm-demo-panel-switcher right"><i class="fa fa-gear"></i></a>
     <div id="lm_demo_panel" class="lm-demo-panel right active">

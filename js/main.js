@@ -10,30 +10,30 @@
     
     // Portfolio subpage filters
     function portfolio_init() {
-        var portfolio_grid = $('#portfolio_grid'),
-            portfolio_filter = $('#portfolio_filters');
+        // var portfolio_grid = $('#portfolio_grid'),
+        //     portfolio_filter = $('#portfolio_filters');
             
-        if (portfolio_grid) {
+        // if (portfolio_grid) {
 
-            portfolio_grid.shuffle({
-                speed: 450,
-                itemSelector: 'figure'
-            });
+        //     portfolio_grid.shuffle({
+        //         speed: 450,
+        //         itemSelector: 'figure'
+        //     });
 
-            $('.site-main-menu').on("click", "a", function (e) {
-                portfolio_grid.shuffle('update');
-            });
+        //     $('.site-main-menu').on("click", "a", function (e) {
+        //         portfolio_grid.shuffle('update');
+        //     });
 
 
-            portfolio_filter.on("click", ".filter", function (e) {
-                portfolio_grid.shuffle('update');
-                e.preventDefault();
-                $('#portfolio_filters .filter').parent().removeClass('active');
-                $(this).parent().addClass('active');
-                portfolio_grid.shuffle('shuffle', $(this).attr('data-group') );
-            });
+        //     portfolio_filter.on("click", ".filter", function (e) {
+        //         portfolio_grid.shuffle('update');
+        //         e.preventDefault();
+        //         $('#portfolio_filters .filter').parent().removeClass('active');
+        //         $(this).parent().addClass('active');
+        //         portfolio_grid.shuffle('shuffle', $(this).attr('data-group') );
+        //     });
 
-        }
+        // }
     }
     // /Portfolio subpage filters
 

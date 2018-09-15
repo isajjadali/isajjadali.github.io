@@ -35,12 +35,14 @@ var PageTransitions = (function ($) {
 
         var href = $('#portfolio_grid figure a').each(function(){
             href = $(this).attr('href');
-            if(hash=='portfolio' + '/' + href.substr(0,href.length-5)){
-                var toLoad =  $(this).attr('href');
-                showContent();
-                ajaxLoadedContent.load(toLoad);
-                return false;
-            } 
+            if(href){
+                if(hash=='portfolio' + '/' + href.substr(0,href.length-5)){
+                    var toLoad =  $(this).attr('href');
+                    showContent();
+                    ajaxLoadedContent.load(toLoad);
+                    return false;
+                } 
+            }
         });
         
         // Show Portfolio item

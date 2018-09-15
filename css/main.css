@@ -2101,3 +2101,21 @@ blockquote {
 .g-recaptcha {
   margin-bottom: 20px;
 }
+
+.modal-body {
+  padding: 40px;
+}
+
+.modal-dialog{
+ width:  1200px;
+}
+
+@media only screen and (max-width: 1221px) {
+  .modal-dialog{
+    width: 355px;
+  }
+  .image-settings {
+    background-position: right;
+    height: 875px;
+  }
+}
