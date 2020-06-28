@@ -177,7 +177,7 @@ body {
 }
 
 .main-picture.men {
-    background-image: url("../images/14.jpg");
+    background-image: url("../images/my-pic.jpg");
     padding: 0;
     margin-top: 24px;
     margin-left: 24px;
@@ -188,7 +188,7 @@ body {
 }
 
 .main-picture.woman {
-    background-image: url("../images/14.jpg");
+    background-image: url("../images/my-pic.jpg");
     padding: 0;
     margin-top: 24px;
     margin-left: 24px;
@@ -721,7 +721,7 @@ section.bl-expand .bl-icon-close {
 }
 
 .bl-main>section.topleft.woman {
-    background-image: url('../images/14.jpg');
+    background-image: url('../images/my-pic.jpg');
 }
 
 .bl-main>section.topleft:before {

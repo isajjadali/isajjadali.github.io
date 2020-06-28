@@ -33,7 +33,8 @@ div.bl-panel-items nav span.bl-next-work,
 div.bl-panel-items nav span.bl-icon-close,
 .before-graduation,
 .achievements-heading,
-div.bl-panel-items>div>div.row>.panel-content  h6,.sub-headings {
+div.bl-panel-items>div>div.row>.panel-content h6,
+.sub-headings {
     color: #ffb400 !important;
 }
 
