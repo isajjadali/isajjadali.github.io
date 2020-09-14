@@ -10,5 +10,5 @@ function getExperience(date) {
         document.write(years + 1 + '.00');
         return;
     }
-    document.write((years + 1 + '.0' + Math.round(otherMonths / 12)));
+    document.write((years + 1 + '.0' + (otherMonths - 12)));
 }
